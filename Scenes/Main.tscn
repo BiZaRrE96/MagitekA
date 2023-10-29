@@ -45,3 +45,12 @@ texture = ExtResource("2_eoqec")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tes"]
 shape = SubResource("RectangleShape2D_f16hj")
+
+[node name="Tes2" type="StaticBody2D" parent="."]
+position = Vector2(-310.99, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Tes2"]
+texture = ExtResource("2_eoqec")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tes2"]
+shape = SubResource("RectangleShape2D_f16hj")
